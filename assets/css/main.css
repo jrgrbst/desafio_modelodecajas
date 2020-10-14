@@ -1,0 +1,70 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+body {
+  margin: 0px;
+  padding: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\000031}}
+.navbar {
+  width: 100%;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  background-color: palegreen;
+  z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000031}}
+.box {
+  width: 100%;
+  padding: 5px;
+  height: 100%;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  top: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000039}}
+  .box__1 {
+    width: 24.79%;
+    padding: 5px;
+    height: 100px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000317}}
+  .box__2 {
+    width: 24.79%;
+    padding: 5px;
+    height: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000326}}
+  .box__3 {
+    width: 24.79%;
+    padding: 5px;
+    height: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000334}}
+  .box__4 {
+    width: 24.79%;
+    padding: 5px;
+    height: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2011\/desafio-modelo-de-cajas\/assets\/sass\/layout\/_forms\.scss}line{font-family:\000031}}
+.main {
+  margin: 5px; }
+
+/*# sourceMappingURL=main.css.map */
