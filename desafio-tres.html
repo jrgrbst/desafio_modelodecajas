@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+
+        .bandera {
+            display: inline-block;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 500px;
+            margin-right: 40px;
+            height: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            overflow: auto;
+            border: 1px solid black;
+        }
+
+        /* españa */
+
+        .espana__red {
+            height: 100px;
+            background-color: red;
+        }
+
+        .espana__yellow {
+            height: 100px;
+            background-color: yellow;
+        }
+
+         /* dinamarca */
+
+        .red__square {
+            height: 125px;
+            width: 125px;
+            background-color: red;
+        }
+
+        .red__square2 {
+            height: 125px;
+            width: 125px;
+            margin-top: 50px;
+            background-color: red;
+        }
+
+        .red__rectangule1 {
+            height: 125px;
+            width: 325px;
+            margin-left: 50px;
+            margin-bottom: 50px;
+            background-color: red;
+            float: right;
+        }
+
+        .red__rectangule2 {
+            height: 125px;
+            width: 325px;
+            margin-left: 50px;
+            background-color: red;
+            float: right;
+        }
+
+        /* emiratos arabes */
+
+        .red__rectangule-ver {
+            height: 300px;
+            width: 97.7px;
+            background-color: red;
+            float: left;
+        }
+
+        .green__rectangule {
+            height: 100px;
+            width: 400px;
+            background-color: green;
+            float: right;
+            box-sizing: border-box;
+        }
+
+        .black__rectangule {
+            height: 100px;
+            width: 400px;
+            margin-top: 100px;
+            background-color: black;
+            float: right;
+            box-sizing: border-box;
+        }
+
+        /* japon */
+
+        .red__circle {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 150px;
+            position: relative;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="bandera">
+        <div class="box">
+            <div class="espana__red"></div>
+            <div class="espana__yellow"></div>
+            <div class="espana__red"></div>
+        </div>
+        <p>España</p>
+    </div>
+
+    <div class="bandera">
+        <div class="box">
+            <div class="red__rectangule1"></div>
+            <div class="red__square"></div>
+            <div class="red__rectangule2"></div>
+            <div class="red__square2"></div>
+        </div>
+        <p>Dinamarca</p>
+    </div>
+
+    <div class="bandera">
+        <div class="box">
+            <div class="green__rectangule"></div>
+            <div class="red__rectangule-ver"></div>
+            <div class="black__rectangule"></div>
+        </div>
+        <p>Emiratos Árabes</p>
+    </div>
+
+    <div class="bandera">
+        <div class="box">
+            <div class="red__circle"></div>
+        </div>
+        <p>Japón</p>
+    </div>
+</body>
+</html>
